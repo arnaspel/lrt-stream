@@ -1,0 +1,233 @@
+/* control bar related skip button */
+.rmp-related-skip-next {
+  cursor: pointer;
+  position: absolute;
+  left: 10%;
+  width: 6%;
+  height: 100%;
+  line-height: 38px;
+  font-size: 22px;
+  white-space: nowrap;
+}
+
+/* skip overlay */
+.rmp-related-skip-preview {
+  position: absolute;
+  top: -152px;
+  left: 10%;
+  margin-left: -25px;
+  width: 192px;
+  height: 152px;
+  display: none;
+  cursor: pointer;
+}
+
+.rmp-small .rmp-related-skip-preview {
+  top: -134px;
+  width: 160px;
+  height: 134px;
+}
+
+.rmp-extrasmall .rmp-related-skip-preview {
+  display: none !important;
+}
+
+.rmp-related-skip-preview-img {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 192px;
+  height: 108px;
+}
+
+.rmp-small .rmp-related-skip-preview-img {
+  width: 160px;
+  height: 90px;
+}
+
+.rmp-related-skip-preview-up-next {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.rmp-related-skip-preview-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  .text-ellipsis();
+}
+
+/* control bar layout adjustments */
+.rmp-related-ui .rmp-time-elapsed {
+  left: 18%;
+}
+
+.rmp-related-ui.rmp-small .rmp-time-elapsed,
+.rmp-related-ui.rmp-extrasmall .rmp-time-elapsed {
+  left: 0;
+}
+
+.rmp-related-ui .rmp-seek-bar {
+  left: 30%;
+  width: 40%;
+}
+
+.rmp-related-ui.rmp-small .rmp-related-skip-next {
+  width: 8%;
+  left: 18%;
+}
+
+.rmp-related-ui.rmp-small .rmp-related-skip-preview {
+  left: 18%;
+}
+
+.rmp-related-ui.rmp-small .rmp-seek-bar {
+  left: 32%;
+  width: 38%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-related-skip-next {
+  width: 12%;
+  left: 20%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-seek-bar {
+  left: 38%;
+  width: 32%;
+}
+
+/* related module */
+.rmp-related > .rmp-module-button > .rmp-i-related {
+  font-size: 26px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+/* related wall */
+.rmp-related-ui .rmp-module-overlay {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.rmp-related-item {
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid;
+  border-color: @button;
+  background-color: @black;
+  .transition(border-color, 0.4s);
+}
+
+.rmp-related-item:hover {
+  border-color: @accent;
+}
+
+.rmp-related-thumbnail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rmp-related-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  background: @dark-shadow;
+  color: @white;
+  padding: 0 2px;
+  .text-ellipsis();
+}
+
+.rmp-related-duration {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  padding: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  background: @dark-shadow;
+  color: @white;
+}
+
+.rmp-related-up-next {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  padding: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  background: @dark-shadow;
+}
+
+.rmp-small .rmp-related-up-next,
+.rmp-small .rmp-related-duration {
+  font-size: 12px;
+}
+
+.rmp-extrasmall .rmp-related-duration {
+  width: 100%;
+}
+
+.rmp-extrasmall .rmp-related-up-next {
+  top: 24px;
+  width: 100%;
+  height: 25px;
+  border-top: 1px solid @black;
+}
+
+.rmp-related-ui .rmp-related-close {
+  cursor: pointer;
+  font-size: 28px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  background: @dark-shadow;
+}
+
+.rmp-related-bottom-padding {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* fullscreen enhancers */
+.rmp-fullscreen-on .rmp-related-up-next,
+.rmp-fullscreen-on .rmp-related-title,
+.rmp-fullscreen-on .rmp-related-duration {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+/* vendor scrollbar CSS */
+.rmp-related-ui .rmp-module-overlay::-webkit-scrollbar {
+  .customScrollbar();
+}
+
+.rmp-related-ui .rmp-module-overlay::-webkit-scrollbar-thumb {
+  background: @black;
+}

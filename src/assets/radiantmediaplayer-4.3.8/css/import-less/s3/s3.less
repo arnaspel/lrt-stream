@@ -1,0 +1,278 @@
+/* Colors for s3 */
+@background: rgba(0, 0, 0, 0);
+@button: rgba(255, 255, 255, 1);
+@accent: rgba(244, 67, 54, 1);
+@shadow: rgba(0, 0, 0, 0.5);
+
+/* s3 specific CSS */
+
+/* makes sure the spinner stays centered on iOS */
+.rmp-loading-spin {
+  line-height: 50px;
+}
+
+.rmp-time-elapsed {
+  height: 24px;
+  top: 8px;
+  line-height: 24px;
+  left: 10%;
+  width: 12%;
+  background: @shadow;
+  .border-radius(2px);
+}
+
+.rmp-duration {
+  height: 24px;
+  top: 8px;
+  line-height: 24px;
+  left: 24%;
+  width: 12%;
+  background: @shadow;
+  .border-radius(2px);
+}
+
+.rmp-seek-bar,
+.rmp-related-ui .rmp-seek-bar {
+  left: 2%;
+  width: 96%;
+  top: -6px;
+  height: 6px;
+}
+
+.rmp-time-total {
+  height: 6px;
+  top: 0;
+  border: 1px solid @button;
+  background: @dark-white-shadow;
+  .border-radius(2px);
+}
+
+.rmp-handle {
+  width: 8px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -4px;
+  .border-radius(2px);
+}
+
+.rmp-current,
+.rmp-loaded {
+  .border-radius(0);
+}
+
+.rmp-loaded {
+  opacity: 0.45;
+  background-color: @accent;
+}
+
+.rmp-indicator {
+  background: @shadow;
+  top: -33px;
+  .border-radius(2px);
+}
+
+.rmp-volume-bar {
+  width: 6px;
+  bottom: 16px;
+  border: 1px solid @button;
+  .border-radius(2px);
+}
+
+.rmp-current-volume {
+  width: 6px;
+  bottom: 16px;
+}
+
+.rmp-handle-volume {
+  width: 16px;
+  height: 8px;
+  left: -5px;
+  top: -3px;
+  .border-radius(2px);
+}
+
+.rmp-title {
+  background: @shadow;
+  .border-radius(2px);
+}
+
+.rmp-hint,
+.rmp-rate,
+.rmp-cc-menu li div,
+.rmp-quality,
+.rmp-audios-item {
+  background: @shadow;
+  border: none;
+  .border-radius(2px);
+}
+
+.rmp-rate-active,
+.rmp-cc-button-active,
+.rmp-quality-active,
+.rmp-audios-item-active {
+  color: @accent;
+}
+
+/* 360 UI adjustment */
+.rmp-360-ui-text {
+  text-shadow: 0 2px 1px @invisible-shadow;
+}
+
+/* thumbnails in seek bar */
+.rmp-seek-bar-thumbnails .rmp-indicator {
+  .border-radius-top-only(0);
+}
+
+.rmp-seek-bar-thumbnails .rmp-thumbnails {
+  .border-radius-top-only(2px);
+}
+
+.rmp-extrasmall .rmp-seek-bar-thumbnails .rmp-indicator {
+  .border-radius-top-only(2px);
+}
+
+/* logo */
+.rmp-logo.rmp-logo-bottom-left,
+.rmp-logo.rmp-logo-bottom-right {
+  bottom: 50px;
+}
+
+.rmp-small .rmp-logo.rmp-logo-bottom-left,
+.rmp-small .rmp-logo.rmp-logo-bottom-right {
+  bottom: 50px;
+}
+
+/* when casting is on */
+.rmp-casting .rmp-cast-diplay-message {
+  bottom: 54px;
+}
+
+/* related */
+.rmp-related-skip-preview {
+  top: -166px;
+}
+
+.rmp-small .rmp-related-skip-preview {
+  top: -150px;
+}
+
+.rmp-related-skip-next {
+  left: 8%;
+}
+
+.rmp-related-ui .rmp-time-elapsed {
+  left: 16%;
+}
+
+.rmp-related-ui .rmp-duration {
+  left: 32%;
+}
+
+.rmp-related-skip-preview-up-next {
+  background: @shadow;
+  .border-radius-top-only(2px);
+}
+
+.rmp-related-skip-preview-title {
+  background: @shadow;
+  .border-radius-bottom-only(2px);
+}
+
+/* rmp-mobile */
+
+/* we need to increase seek bar height on mobile to maintain usability */
+.rmp-mobile .rmp-time-total {
+  height: 8px;
+  top: -2px;
+}
+
+/* rmp-small */
+.rmp-small .rmp-seek-bar,
+.rmp-small.rmp-related-ui .rmp-seek-bar {
+  left: 2%;
+  width: 96%;
+  top: -6px;
+  height: 6px;
+}
+
+.rmp-small .rmp-time-elapsed {
+  left: 18%;
+  border: none;
+  background: @shadow;
+  bottom: auto;
+  width: 16%;
+}
+
+.rmp-small .rmp-duration {
+  left: 36%;
+  border: none;
+  background: @shadow;
+  bottom: auto;
+  width: 16%;
+}
+
+.rmp-small.rmp-related-ui .rmp-time-elapsed {
+  left: 32%;
+}
+
+.rmp-small.rmp-related-ui .rmp-duration {
+  left: 50%;
+}
+
+/* rmp-extrasmall */
+.rmp-extrasmall .rmp-seek-bar,
+.rmp-extrasmall.rmp-related-ui .rmp-seek-bar {
+  left: 2%;
+  width: 96%;
+  top: -6px;
+  height: 6px;
+}
+
+.rmp-extrasmall .rmp-time-elapsed {
+  left: 20%;
+  border: none;
+  background: @shadow;
+  bottom: auto;
+  width: 20%;
+}
+
+.rmp-extrasmall .rmp-duration {
+  left: 42%;
+  border: none;
+  background: @shadow;
+  bottom: auto;
+  width: 20%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-related-skip-next {
+  left: 14%;
+}
+
+.rmp-extrasmall.rmp-related-ui .rmp-time-elapsed {
+  left: 26%;
+}
+
+.rmp-extrasmall.rmp-related-ui .rmp-duration {
+  left: 48%;
+}
+
+/* Ads CSS */
+.rmp-ad-info {
+  background: @shadow;
+  height: 24px;
+  line-height: 24px;
+  top: 8px;
+  padding-right: 6px;
+  .border-radius(2px);
+}
+
+.rmp-ad-container.rmp-ad-overlay {
+  top: -48px;
+}
+
+/* vendor scrollbar CSS */
+.rmp-module-extended-menu::-webkit-scrollbar,
+.rmp-module-extended-menu::-webkit-scrollbar-thumb {
+  .border-radius(2px);
+}
+

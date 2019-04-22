@@ -1,0 +1,350 @@
+/* s4 specific CSS */
+@background: rgba(255, 255, 255, 0.85);
+@button: rgba(0, 0, 0, 1);
+@accent: rgba(33, 150, 243, 1);
+
+.rmp-outline {
+  background: transparent !important;
+  margin-bottom: 8px;
+}
+
+.rmp-play-pause {
+  width: 8%;
+  left: 1%;
+  height: 40px;
+  line-height: 40px;
+  top: -1px;
+  .border-radius(4px);
+}
+
+.rmp-time-elapsed {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  .border-radius-left-only(4px);
+}
+
+.rmp-seek-bar {
+  left: 20%;
+  width: 52%;
+  height: 32px;
+  top: 3px;
+}
+
+.rmp-time-total {
+  top: 11px;
+  height: 10px;
+}
+
+.rmp-duration {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  .border-radius-right-only(4px);
+}
+
+.rmp-volume {
+  width: 7.5%;
+  left: 83%;
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  .border-radius(4px);
+}
+
+.rmp-fullscreen {
+  width: 7.5%;
+  left: 91.5%;
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  .border-radius(4px);
+}
+
+.rmp-handle,
+.rmp-handle-volume {
+  display: none;
+}
+
+.rmp-time-total,
+.rmp-current,
+.rmp-loaded,
+.rmp-current-volume,
+.rmp-volume-bar {
+  .border-radius(2px);
+}
+
+.rmp-360-ui,
+.rmp-360-ui-text,
+.rmp-module,
+.rmp-title,
+.rmp-overlay-button,
+.rmp-loading-spin,
+.rmp-hint,
+.rmp-indicator,
+.rmp-rate,
+.rmp-cc-menu li div,
+.rmp-audios-item,
+.rmp-quality,
+.rmp-error > div,
+.rmp-no-play-text {
+  .border-radius(4px);
+}
+
+.rmp-background-volume {
+  width: 32px;
+  margin-left: -16px;
+  .border-radius-top-only(4px);
+}
+
+.rmp-current-volume,
+.rmp-volume-bar {
+  left: 11px;
+}
+
+/* related */
+.rmp-related-skip-next {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  width: 7.5%;
+  .border-radius(4px);
+}
+
+.rmp-related-ui.rmp-small .rmp-related-skip-next {
+  width: 10%;
+  left: 14%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-related-skip-next {
+  width: 12%;
+  left: 16%;
+}
+
+.rmp-related-ui .rmp-time-elapsed {
+  left: 18.5%;
+}
+
+.rmp-related-ui.rmp-small .rmp-time-elapsed {
+  left: 26%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-time-elapsed {
+  left: 30%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-duration {
+  display: none;
+}
+
+.rmp-related-ui .rmp-seek-bar {
+  left: 28.5%;
+  width: 43.5%;
+}
+
+.rmp-related-ui.rmp-small .rmp-seek-bar {
+  left: 40%;
+  width: 20%;
+}
+
+.rmp-related-ui.rmp-extrasmall .rmp-seek-bar {
+  left: 48%;
+  width: 22%;
+  padding-right: 2%;
+  .border-radius-right-only(4px);
+}
+
+.rmp-related-skip-preview {
+  top: -156px;
+  left: 10%;
+  margin-left: 0;
+}
+
+.rmp-related-ui.rmp-small .rmp-related-skip-preview {
+  top: -138px;
+  left: 14%;
+}
+
+.rmp-related-skip-preview-up-next {
+  .border-radius-top-only(4px);
+}
+
+.rmp-related-skip-preview-title {
+  .border-radius-bottom-only(4px);
+}
+
+/* 360 UI adjustment */
+.rmp-360-ui-text {
+  text-shadow: 0 2px 1px @invisible-shadow;
+}
+
+/* .rmp-small */
+.rmp-small .rmp-play-pause {
+  height: 40px;
+  line-height: 40px;
+  top: -1px;
+  width: 10%;
+  left: 2%;
+  .border-radius(4px);
+}
+
+.rmp-small .rmp-time-elapsed {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  left: 14%;
+  width: 14%;
+}
+
+.rmp-small .rmp-seek-bar {
+  left: 28%;
+  width: 32%;
+}
+
+.rmp-small .rmp-duration {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  width: 14%;
+  left: 60%;
+  margin-left: 0;
+}
+
+.rmp-small .rmp-volume {
+  left: 76%;
+  width: 10%;
+}
+
+.rmp-small .rmp-fullscreen {
+  left: 88%;
+  width: 10%;
+}
+
+/* .rmp-extrasmall */
+.rmp-extrasmall .rmp-play-pause {
+  width: 12%;
+  left: 2%;
+}
+
+.rmp-extrasmall .rmp-time-elapsed {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  left: 16%;
+  width: 18%;
+}
+
+.rmp-extrasmall .rmp-seek-bar {
+  left: 34%;
+  width: 18%;
+}
+
+.rmp-extrasmall .rmp-duration {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  width: 18%;
+  left: 52%;
+  margin-left: 0;
+}
+
+.rmp-extrasmall .rmp-volume {
+  left: 72%;
+  width: 12%;
+}
+
+.rmp-extrasmall .rmp-fullscreen {
+  left: 86%;
+  width: 12%;
+}
+
+/* thumbnails in seek bar */
+.rmp-seek-bar-thumbnails .rmp-indicator {
+  .border-radius-top-only(0);
+}
+
+.rmp-seek-bar-thumbnails .rmp-thumbnails {
+  .border-radius-top-only(4px);
+}
+
+.rmp-extrasmall .rmp-seek-bar-thumbnails .rmp-indicator {
+  .border-radius-top-only(4px);
+}
+
+/* Live layout (isLive: true) */
+.rmp-live .rmp-time-elapsed {
+  .border-radius(4px);
+}
+
+/* logo */
+.rmp-logo.rmp-logo-bottom-left,
+.rmp-logo.rmp-logo-bottom-right {
+  bottom: 54px;
+}
+
+.rmp-small .rmp-logo.rmp-logo-bottom-left,
+.rmp-small .rmp-logo.rmp-logo-bottom-right {
+  bottom: 54px;
+}
+
+/* DVR layout */
+.rmp-live-dvr.rmp-extrasmall .rmp-time-total {
+  display: none;
+}
+
+/* when casting is on */
+.rmp-casting .rmp-cast-diplay-message {
+  bottom: 54px;
+}
+
+.rmp-small.rmp-casting .rmp-time-elapsed,
+.rmp-small.rmp-casting .rmp-duration,
+.rmp-extrasmall.rmp-casting .rmp-time-elapsed,
+.rmp-extrasmall.rmp-casting .rmp-duration, {
+  display: block;
+}
+
+/* Ads CSS */
+.rmp-ad-skip-button {
+  .border-radius-bottom-right-only(4px);
+}
+
+.rmp-ad-info {
+  height: 32px;
+  line-height: 32px;
+  top: 3px;
+  min-width: 10%;
+  padding: 0 10px;
+  text-align: center;
+  .border-radius(4px);
+}
+
+.rmp-ad-info-message {
+  margin-left: 0;
+}
+
+.rmp-ad-container.rmp-ad-overlay {
+  top: -48px;
+}
+
+.rmp-ad-current-time {
+  bottom: -8px;
+}
+
+/* colors */
+.rmp-play-pause,
+.rmp-ad-info,
+.rmp-volume,
+.rmp-fullscreen,
+.rmp-seek-bar,
+.rmp-time-elapsed,
+.rmp-duration,
+.rmp-related-skip-next {
+  background: @background;
+}
+
+/* vendor scrollbar CSS */
+.rmp-module-extended-menu::-webkit-scrollbar,
+.rmp-module-extended-menu::-webkit-scrollbar-thumb {
+  .border-radius(4px);
+}

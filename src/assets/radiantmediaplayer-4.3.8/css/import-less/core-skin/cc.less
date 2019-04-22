@@ -1,0 +1,71 @@
+/* closed captions layout */
+.rmp-cc > .rmp-module-button > .rmp-i-cc {
+  font-size: 32px;
+}
+
+.rmp-cc-menu {
+  display: none;
+  position: absolute;
+  top: 46px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  list-style-type: none;
+  font-family: inherit;
+}
+
+.rmp-cc-menu li {
+  width: 132px;
+  display: block;
+}
+
+.rmp-cc-button {
+  cursor: pointer;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 2px;
+  margin-bottom: 3px;
+  .font-rmp();
+  .transition(all, 0.4s);
+  .text-ellipsis();
+}
+
+/* closed caption rendering area (vtt.js) */
+.rmp-cc-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  .transition(top; 0.4s);
+}
+
+/* .rmp-cc-container is child of .rmp-cc-area
+.rmp-cc-container {
+}
+*/
+
+/* .rmp-cc-display is child of .rmp-cc-container - apply CSS if required
+.rmp-cc-display {
+}
+*/
+
+/* .rmp-cc-cue is child of .rmp-cc-display
+.rmp-cc-cue {
+}
+*/
+
+/* iOS/Mac OS Safari where native track tags are used */
+.rmp-content > video::cue {
+  color: @ccFontColor;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.rmp-content > video::-webkit-media-text-track-display-backdrop {
+  border-radius: 0 !important;
+  background: @ccBackground !important;
+}

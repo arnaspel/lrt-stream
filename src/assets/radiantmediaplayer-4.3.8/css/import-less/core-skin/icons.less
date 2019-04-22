@@ -1,0 +1,404 @@
+/* player icons */
+@font-face {
+  font-family: 'rmp-font';
+  src: url('fonts/rmp-font.eot?197330');
+  src: url('fonts/rmp-font.eot?#iefix197330') format('embedded-opentype'), url('fonts/rmp-font.woff?197330') format('woff'), url('fonts/rmp-font.ttf?197330') format('truetype'), url('fonts/rmp-font.svg?197330#rmp-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rmp-i {
+  font-family: 'rmp-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 0 2px 1px @invisible-shadow;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .transition(color, 0.4s);
+}
+
+/* icons */
+.rmp-i-pause::before {
+  content: "\f04c";
+}
+
+.rmp-i-play::before {
+  content: "\f04b";
+}
+
+.rmp-i-volume-up::before {
+  content: "\f028";
+}
+
+.rmp-i-volume-off::before {
+  content: "\f026";
+}
+
+.rmp-i-resize-full::before {
+  content: "\f065";
+}
+
+.rmp-i-resize-small::before {
+  content: "\f066";
+}
+
+.rmp-i-replay::before {
+  content: "\f01e";
+}
+
+/* module icons */
+.rmp-i-nav::before {
+  content: "\f017";
+}
+
+.rmp-i-cc::before {
+  content: "\e01c";
+}
+
+.rmp-i-hd::before {
+  content: "\f013";
+}
+
+.rmp-i-audios::before {
+  content: "\e310";
+}
+
+.rmp-i-close::before {
+  content: "\f00d";
+}
+
+/* sharing icons */
+.rmp-i-sharing::before {
+  content: "\f1e0";
+}
+
+.rmp-i-facebook::before {
+  content: "\f082";
+}
+
+.rmp-i-twitter::before {
+  content: "\f081";
+}
+
+.rmp-i-gplus::before {
+  content: "\f0d4";
+}
+
+.rmp-i-linkedin::before {
+  content: "\f08c";
+}
+
+.rmp-i-reddit::before {
+  content: "\f1a2";
+}
+
+.rmp-i-email::before {
+  content: "\f0e0";
+}
+
+.rmp-i-code::before {
+  content: "\e86f";
+}
+
+.rmp-i-link::before {
+  content: "\e157";
+}
+
+/* audio only */
+.rmp-i-plus::before {
+  content: "\f067";
+}
+
+.rmp-i-minus::before {
+  content: "\f068";
+}
+
+/* navigation icons */
+.rmp-i-previous::before {
+  content: "\f053";
+}
+
+.rmp-i-next::before {
+  content: "\f054";
+}
+
+.rmp-i-left::before {
+  content: "\f137";
+}
+
+.rmp-i-right::before {
+  content: "\f138";
+}
+
+.rmp-i-up::before {
+  content: "\f139";
+}
+
+.rmp-i-down::before {
+  content: "\f13a";
+}
+
+.rmp-i-plus-360::before {
+  content: "\f055";
+}
+
+.rmp-i-minus-360::before {
+  content: "\f056";
+}
+
+.rmp-i-reset-360::before {
+  content: "\f192";
+}
+
+.rmp-i-skip-next::before {
+  content: "\f051";
+}
+
+.rmp-i-skip-previous::before {
+  content: "\f048";
+}
+
+/* related icons */
+.rmp-i-related::before {
+  content: "\f00b";
+}
+
+/* alt icons for s2 + s4 skins */
+.rmp-i-alt .rmp-i-play::before {
+  content: "\e037";
+}
+
+.rmp-i-alt .rmp-overlay-button > .rmp-i-replay::before {
+  content: "\e042";
+}
+
+.rmp-i-alt .rmp-i-pause::before {
+  content: "\e034";
+}
+
+.rmp-i-alt .rmp-i-volume-off::before {
+  content: "\e04e";
+}
+
+.rmp-i-alt .rmp-i-volume-up::before {
+  content: "\e050";
+}
+
+.rmp-i-alt .rmp-i-resize-full::before {
+  content: "\e5d0";
+}
+
+.rmp-i-alt .rmp-i-resize-small::before {
+  content: "\e5d1";
+}
+
+/* alternative icons skin s2 & s4 font-size adjustement */
+.rmp-i-alt .rmp-i-play {
+  font-size: 30px;
+}
+
+.rmp-i-alt .rmp-overlay-button > .rmp-i-play {
+  font-size: 50px;
+}
+
+.rmp-i-alt .rmp-overlay-button > .rmp-i-replay {
+  font-size: 40px;
+}
+
+.rmp-i-alt .rmp-i-pause {
+  font-size: 30px;
+}
+
+.rmp-i-alt .rmp-i-volume-off {
+  font-size: 24px;
+}
+
+.rmp-i-alt .rmp-i-volume-up {
+  font-size: 24px;
+}
+
+.rmp-i-alt .rmp-i-resize-full {
+  font-size: 30px;
+}
+
+.rmp-i-alt .rmp-i-resize-small {
+  font-size: 30px;
+}
+
+/* alt icons for s3 skin */
+.rmp-i-alt-2 .rmp-i-play::before {
+  content: "\e904";
+}
+
+.rmp-i-alt-2 .rmp-overlay-button > .rmp-i-replay::before {
+  content: "\e905";
+}
+
+.rmp-i-alt-2 .rmp-i-pause::before {
+  content: "\e903";
+}
+
+.rmp-i-alt-2 .rmp-i-volume-off::before {
+  content: "\e900";
+  opacity: 0.66;
+}
+
+.rmp-i-alt-2 .rmp-i-volume-up::before {
+  content: "\e900";
+}
+
+.rmp-i-alt-2 .rmp-i-resize-full::before {
+  content: "\e901";
+}
+
+.rmp-i-alt-2 .rmp-i-resize-small::before {
+  content: "\e902";
+}
+
+.rmp-i-alt-2 .rmp-i-nav::before {
+  content: "\e907";
+}
+
+.rmp-i-alt-2 .rmp-i-hd::before {
+  content: "\e908";
+}
+
+.rmp-i-alt-2 .rmp-i-audios::before {
+  content: "\e909";
+}
+
+.rmp-i-alt-2 .rmp-i-sharing::before {
+  content: "\e90a";
+}
+
+.rmp-i-alt-2 .rmp-i-loader::before {
+  content: "\e906";
+}
+
+.rmp-i-alt-2 .rmp-i-close::before {
+  content: "\e90c";
+}
+
+.rmp-i-alt-2 .rmp-i-related::before {
+  content: "\e90b";
+}
+
+.rmp-i-alt-2 .rmp-i-skip-next::before {
+  content: "\e90d";
+}
+
+/* alternative icons skin s3 adjustement */
+.rmp-i-alt-2 .rmp-i-play,
+.rmp-i-alt-2 .rmp-i-pause,
+.rmp-i-alt-2 .rmp-i-volume-off,
+.rmp-i-alt-2 .rmp-i-volume-up,
+.rmp-i-alt-2 .rmp-i-resize-full,
+.rmp-i-alt-2 .rmp-i-resize-small,
+.rmp-i-alt-2 .rmp-nav > .rmp-module-button > .rmp-i-nav,
+.rmp-i-alt-2 .rmp-sharing > .rmp-module-button > .rmp-i-sharing,
+.rmp-i-alt-2 .rmp-hd > .rmp-module-button > .rmp-i-hd,
+.rmp-i-alt-2 .rmp-maudios > .rmp-module-button > .rmp-i-maudios {
+  font-size: 24px;
+}
+
+.rmp-i-alt-2 .rmp-overlay-button > .rmp-i-play,
+.rmp-i-alt-2 .rmp-overlay-button > .rmp-i-replay,
+.rmp-i-alt-2 .rmp-loading-spin > .rmp-i-loader {
+  font-size: 48px;
+}
+
+/* spinner animation */
+@-webkit-keyframes spin {
+  0%,
+  40%,
+  100% {
+    .transform-scaleY(0.35);
+  }
+
+  20% {
+    .transform-scaleY(0.65);
+  }
+}
+
+@-moz-keyframes spin {
+  0%,
+  40%,
+  100% {
+    .transform-scaleY(0.35);
+  }
+
+  20% {
+    .transform-scaleY(0.65);
+  }
+}
+
+@keyframes spin {
+  0%,
+  40%,
+  100% {
+    .transform-scaleY(0.35);
+  }
+
+  20% {
+    .transform-scaleY(0.65);
+  }
+}
+
+.rmp-waiting .rmp-loading-spin-rect {
+  .animation(spin 1.2s infinite ease-in-out);
+}
+
+.rmp-waiting .rect2 {
+  .animation-delay(-1.1s);
+}
+
+.rmp-waiting .rect3 {
+  .animation-delay(-1.0s);
+}
+
+.rmp-waiting .rect4 {
+  .animation-delay(-0.9s);
+}
+
+.rmp-waiting .rect5 {
+  .animation-delay(-0.8s);
+}
+
+/* s3 skin spinner */
+@-webkit-keyframes spinRotate {
+  0% {
+    .transform-rotate(0deg);
+  }
+
+  100% {
+    .transform-rotate(359deg);
+  }
+}
+
+@-moz-keyframes spinRotate {
+  0% {
+    .transform-rotate(0deg);
+  }
+
+  100% {
+    .transform-rotate(359deg);
+  }
+}
+
+@keyframes spinRotate {
+  0% {
+    .transform-rotate(0deg);
+  }
+
+  100% {
+    .transform-rotate(359deg);
+  }
+}
+
+.rmp-waiting.rmp-i-alt-2 .rmp-loading-spin {
+  .animation(spinRotate 2s linear infinite);
+}
+

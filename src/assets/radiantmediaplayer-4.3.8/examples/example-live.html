@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>Radiant Media Player - Live video player example</title>
+</head>
+
+<body>
+  <script src="../js/rmp.min.js"></script>
+  <div id="rmpPlayer">
+  </div>
+  <script>
+    // Set up player settings
+    // This will display a live video player based on your settings
+    // This live feed may not be available 24/7. Use your own feed for testing.
+    var bitrates = {
+      hls: 'https://dqwp3xzzbfhtw.cloudfront.net/testlive/smil:live.smil/playlist.m3u8'
+    };
+    var liveSettings = {
+      // Enter your license key
+      licenseKey: 'your-license-key',
+      delayToFade: 3000,
+      bitrates: bitrates,
+      width: 640,
+      pathToRmpFiles: '../',
+      height: 360,
+      isLive: true,
+      poster: 'https://www.radiantmediaplayer.com/images/poster-rmp-showcase.jpg'
+    };
+    // Reference to the player container (id)
+    var elementID = 'rmpPlayer';
+    // New Radiant Media Player object
+    var rmp = new RadiantMP(elementID);
+    // Initialize player ... and done!
+    rmp.init(liveSettings);
+  </script>
+</body>
+
+</html>

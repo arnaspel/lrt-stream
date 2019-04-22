@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>Radiant Media Player - Example Apple HLS</title>
+</head>
+
+<body>
+  <script src="../js/rmp.min.js"></script>
+  <div id="rmpPlayer"></div>
+  <script>
+    // Set up player settings
+    var bitrates = {
+      hls: 'https://dqwp3xzzbfhtw.cloudfront.net/vod/smil:bbb.smil/playlist.m3u8'
+    };
+    var ccFiles = [
+      ['en', 'English', 'https://www.radiantmediaplayer.com/media/cc.vtt'],
+      ['fr', 'Français', 'https://www.radiantmediaplayer.com/media/cc-fr.vtt']
+    ];
+    var settings = {
+      // Enter your license key
+      licenseKey: 'your-license-key',
+      delayToFade: 3000,
+      width: 640,
+      height: 360,
+      pathToRmpFiles: '../',
+      skin: 's3',
+      ccFiles: ccFiles,
+      bitrates: bitrates,
+      logo: 'https://www.radiantmediaplayer.com/images/radiantmediaplayer-logo-player.png',
+      logoLoc: 'https://www.radiantmediaplayer.com',
+      //logoWatermark: true,
+      poster: 'https://www.radiantmediaplayer.com/images/poster-rmp-showcase.jpg'
+    };
+    // Reference to the player container (id)
+    var elementID = 'rmpPlayer';
+    // New Radiant Media Player object
+    var rmp = new RadiantMP(elementID);
+    // Initialize player ... and done!
+    rmp.init(settings);
+  </script>
+</body>
+
+</html>

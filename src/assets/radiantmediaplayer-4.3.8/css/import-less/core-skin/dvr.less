@@ -1,0 +1,54 @@
+/* DVR layout */
+
+@-webkit-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 26px 26px;
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 26px 26px;
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 26px 26px;
+  }
+}
+
+.rmp-dvr-bumper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 52px;
+  .border-radius-right-only(10px);
+}
+
+.rmp-dvr-bumper > div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  .box-shadow(inset 0 0 2px 0px @shadow);
+  .animation(move 1.5s infinite linear);
+  .border-radius-right-only(10px);
+  @rlgparams: -45deg, @dark-white-shadow, @dark-white-shadow 25%, @light-shadow 25%, @light-shadow 50%;
+  .repeating-linear-gradient(@rlgparams);
+  .background-size(26px);
+}

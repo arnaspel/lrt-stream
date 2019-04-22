@@ -1,0 +1,80 @@
+/* default color settings */
+@background: rgba(33, 33, 33, 0.8);
+@button: rgba(255, 255, 255, 1);
+@accent: rgba(33, 150, 243, 1);
+@black: rgba(0, 0, 0, 1);
+@white: rgba(255, 255, 255, 1);
+@dark-shadow: rgba(0, 0, 0, 0.8);
+@shadow: rgba(0, 0, 0, 0.6);
+@light-shadow: rgba(0, 0, 0, 0.4);
+@invisible-shadow: rgba(0, 0, 0, 0.2);
+@white-shadow: rgba(255, 255, 255, 0.2);
+@dark-white-shadow: rgba(255, 255, 255, 0.4);
+@light-grey: #cfcfcf;
+@grey: #333;
+
+/* chromecast button colors as per Google recommendations
+ * this is also used for UI focus on keyboard controls */
+@blue: rgba(33, 150, 243, 1);
+@blue-hover: rgba(25, 118, 210, 1);
+
+/* closed captions */
+@ccBackground: rgba(0, 0, 0, 0.8);
+@ccFontColor: rgba(255, 255, 255, 1);
+
+/* applying colors to player - general colors */
+.rmp-color-bg {
+  background: @background;
+}
+
+.rmp-color-button {
+  color: @button;
+}
+
+.rmp-color-bg-button {
+  background: @button;
+}
+
+/* specific handling */
+.rmp-cc-button-active,
+.rmp-audios-item-active,
+.rmp-rate-active,
+.rmp-quality-active {
+  background: @button;
+  color: @background;
+}
+
+.rmp-abr-active,
+.rmp-i:hover {
+  color: @accent;
+}
+
+.rmp-cc-button:hover:not(.rmp-cc-button-active) {
+  color: @accent;
+}
+
+.rmp-audios-item:hover:not(.rmp-audios-item-active) {
+  color: @accent;
+}
+
+.rmp-rate:hover:not(.rmp-rate-active) {
+  color: @accent;
+}
+
+.rmp-quality:hover:not(.rmp-quality-active) {
+  color: @accent;
+}
+
+.rmp-ad-current-time {
+  background: @accent;
+}
+
+.rmp-cast-button {
+  --disconnected-color: @button;
+  --connected-color: @blue;
+}
+
+.rmp-cast-button:hover {
+  --disconnected-color: @accent;
+  --connected-color: @blue-hover;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>Radiant Media Player - Example DASH</title>
+</head>
+
+<body>
+  <script src="../js/rmp.min.js"></script>
+  <div id="rmpPlayer"></div>
+  <script>
+    // Set up player settings
+    var bitrates = {
+      dash: 'https://www.rmp-streaming.com/media/dash264/abr/manifest.mpd',
+      // this exists as a fallback where DASH is not supported
+      mp4: [
+        'https://www.rmp-streaming.com/media/bbb-360p.mp4'
+      ]
+    };
+    var settings = {
+      // Enter your license key
+      licenseKey: 'your-license-key',
+      delayToFade: 3000,
+      width: 640,
+      height: 360,
+      pathToRmpFiles: '../',
+      skin: 's1',
+      bitrates: bitrates,
+      poster: 'https://www.radiantmediaplayer.com/images/poster-rmp-showcase.jpg'
+    };
+    // Reference to the player container (id)
+    var elementID = 'rmpPlayer';
+    // New Radiant Media Player object
+    var rmp = new RadiantMP(elementID);
+    // Initialize player ... and done!
+    rmp.init(settings);
+  </script>
+</body>
+
+</html>

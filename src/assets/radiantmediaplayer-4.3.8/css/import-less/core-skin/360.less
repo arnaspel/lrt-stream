@@ -1,0 +1,110 @@
+/* 360 layout */
+.rmp-canvas-360 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  .transform-translate();
+}
+
+.rmp-canvas-360.rmp-canvas-360-grabbing {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.rmp-360-ui {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 114px;
+  height: 156px;
+  .transition(opacity, 0.4s);
+}
+
+.rmp-360-ui-text {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.rmp-360-ui-button {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.rmp-360-ui-top {
+  top: 6px;
+  left: 42px;
+}
+
+.rmp-360-ui-bottom {
+  left: 42px;
+  top: 78px;
+}
+
+.rmp-360-ui-left {
+  left: 6px;
+  top: 42px;
+}
+
+.rmp-360-ui-right {
+  left: 78px;
+  top: 42px;
+}
+
+.rmp-360-ui-plus {
+  left: 78px;
+  top: 120px;
+}
+
+.rmp-360-ui-reset {
+  left: 42px;
+  top: 120px;
+}
+
+.rmp-360-ui-minus {
+  left: 6px;
+  top: 120px;
+}
+
+.rmp-small .rmp-360-ui-plus,
+.rmp-small .rmp-360-ui-reset,
+.rmp-small .rmp-360-ui-minus {
+  display: none;
+}
+
+.rmp-small .rmp-360-ui {
+  height: 106px;
+  width: 106px;
+}
+
+.rmp-small .rmp-360-ui-top {
+  top: 4px;
+  left: 38px;
+}
+
+.rmp-small .rmp-360-ui-bottom {
+  left: 38px;
+  top: 72px;
+}
+
+.rmp-small .rmp-360-ui-left {
+  left: 4px;
+  top: 38px;
+}
+
+.rmp-small .rmp-360-ui-right {
+  left: 72px;
+  top: 38px;
+}

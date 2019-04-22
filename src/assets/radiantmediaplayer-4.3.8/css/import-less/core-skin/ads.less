@@ -1,0 +1,167 @@
+/* ad container where ads are rendered */
+.rmp-ad-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: left;
+}
+
+/* non-linear (overlay ads) */
+.rmp-ad-container.rmp-ad-overlay {
+  top: -40px;
+}
+
+/* ad information within control bar */
+.rmp-ad-info {
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  line-height: 38px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.rmp-ad-info-message {
+  margin-left: 6px;
+}
+
+.rmp-ad-info-countdown {
+  margin-left: 6px;
+}
+
+.rmp-ad-info-pod {
+  margin-left: 6px;
+}
+
+/* ad skip button */
+.rmp-ad-skip-button {
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  height: 38px;
+  width: 38px;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+/* remaining time bar for ads */
+.rmp-ad-current-time {
+  position: absolute;
+  bottom: 38px;
+  height: 3px;
+}
+
+/* schedule background */
+.rmp-ad-schedule-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+/* outstream in-article */
+.rmp-ad-in-article.rmp-no-chrome .rmp-outline {
+  opacity: 1;
+}
+
+.rmp-ad-in-article .rmp-overlay-button,
+.rmp-ad-in-article .rmp-loading-spin,
+.rmp-ad-in-article .rmp-outline {
+  background: rgba(0, 0, 0, 0);
+}
+
+.rmp-ad-in-article .rmp-fullscreen {
+  display: none;
+}
+
+.rmp-ad-in-article .rmp-volume {
+  left: 92%;
+}
+
+.rmp-ad-in-article .rmp-overlay-button,
+.rmp-ad-in-article .rmp-loading-spin {
+  border: 2px solid @button;
+  height: 70px;
+  margin-top: -35px;
+  width: 70px;
+  margin-left: -35px;
+  .border-radius(50%);
+}
+
+.rmp-ad-in-article .rmp-overlay-button > .rmp-i-play,
+.rmp-ad-in-article .rmp-overlay-button > .rmp-i-replay {
+  line-height: 66px;
+}
+
+.rmp-ad-in-article .rmp-overlay-button > .rmp-i-play {
+  margin-left: 3px;
+}
+
+.rmp-ad-in-article .rmp-loading-spin-rect {
+  height: 50px;
+  margin-top: 8px;
+}
+
+.rmp-ad-in-article .rmp-play-pause,
+.rmp-ad-in-article .rmp-volume,
+.rmp-ad-in-article .rmp-ad-info {
+  top: -3px;
+}
+
+.rmp-ad-in-article.rmp-small .rmp-volume,
+.rmp-ad-in-article.rmp-extrasmall .rmp-volume {
+  left: 88%;
+}
+
+.rmp-ad-in-article .rmp-ad-current-time {
+  bottom: 0;
+}
+
+/* .rmp-small */
+.rmp-small .rmp-ad-info {
+  left: 18%;
+}
+
+/* .rmp-extrasmall */
+.rmp-extrasmall .rmp-ad-info {
+  font-size: 11px;
+  left: 20%;
+}
+
+/* rmp-vast */
+
+/* adjust skip button at lower size */
+.rmp-small .rmp-ad-container-skip {
+  width: 120px;
+  height: 38px;
+  line-height: 36px;
+  font-size: 12px;
+}
+
+.rmp-extrasmall .rmp-ad-container-skip {
+  width: 104px;
+  height: 34px;
+  line-height: 32px;
+  font-size: 12px;
+}
+
+/* adjust learn more button at lower size */
+.rmp-small .rmp-ad-click-ui-mobile {
+  top: 6px;
+  right: 6px;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.rmp-extrasmall .rmp-ad-click-ui-mobile {
+  top: 5px;
+  right: 5px;
+  font-size: 15px;
+  padding: 5px;
+}

@@ -1,0 +1,118 @@
+/* audio only */
+.rmp-audio-only .rmp-title,
+.rmp-audio-only .rmp-module,
+.rmp-audio-only .rmp-overlay-button,
+.rmp-audio-only .rmp-loading-spin,
+.rmp-audio-only .rmp-indicator,
+.rmp-audio-only .rmp-fullscreen {
+  display: none !important;
+}
+
+.rmp-audio-only .rmp-outline {
+  opacity: 1 !important;
+}
+
+.rmp-audio-only .rmp-seek-bar {
+  width: 40%;
+}
+
+.rmp-audio-only .rmp-duration {
+  left: 64%;
+}
+
+.rmp-audio-only .rmp-volume {
+  left: 76%;
+}
+
+.rmp-audio-only .rmp-i-plus,
+.rmp-audio-only .rmp-i-minus {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  width: 6%;
+  height: 100%;
+  line-height: 38px;
+  font-size: 18px;
+}
+
+.rmp-audio-only .rmp-i-minus {
+  left: 84%;
+}
+
+.rmp-audio-only .rmp-i-plus {
+  left: 92%;
+}
+
+/* audio-only at .rmp-small */
+.rmp-small.rmp-audio-only .rmp-play-pause {
+  left: 2%;
+}
+
+.rmp-small.rmp-audio-only .rmp-time-elapsed {
+  bottom: 0;
+  left: 10%;
+  width: 14%;
+  height: 100%;
+  line-height: 38px;
+  background: transparent;
+}
+
+.rmp-small.rmp-audio-only .rmp-seek-bar {
+  left: 26%;
+  width: 32%;
+}
+
+.rmp-small.rmp-audio-only .rmp-duration {
+  bottom: 0;
+  width: 14%;
+  height: 100%;
+  line-height: 38px;
+  left: 60%;
+  background: transparent;
+  margin-left: 0;
+}
+
+.rmp-small.rmp-audio-only .rmp-volume {
+  left: 76%;
+}
+
+/* audio-only at .rmp-extrasmall */
+.rmp-extrasmall.rmp-audio-only .rmp-play-pause {
+  left: 2%;
+  width: 8%;
+}
+
+.rmp-extrasmall.rmp-audio-only .rmp-time-elapsed {
+  bottom: 0;
+  left: 10%;
+  width: 16%;
+  height: 100%;
+  line-height: 38px;
+  background: transparent;
+}
+
+.rmp-extrasmall.rmp-audio-only .rmp-seek-bar {
+  width: 42%;
+  left: 28%;
+}
+
+.rmp-extrasmall.rmp-audio-only .rmp-duration {
+  bottom: 0;
+  width: 16%;
+  height: 100%;
+  line-height: 38px;
+  left: 72%;
+  background: transparent;
+  margin-left: 0;
+}
+
+.rmp-extrasmall.rmp-audio-only .rmp-volume {
+  left: 90%;
+  width: 8%;
+}
+
+/* audio-only on extrasmall => do not display +/- UI */
+.rmp-extrasmall.rmp-audio-only .rmp-i-plus,
+.rmp-extrasmall.rmp-audio-only .rmp-i-minus {
+  display: none;
+}

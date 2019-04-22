@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>Radiant Media Player - HTML5 video ads example</title>
+</head>
+
+<body>
+  <script src="../js/rmp.min.js"></script>
+  <div id="rmpPlayer"></div>
+  <script>
+    // Set up player settings
+    var bitrates = {
+      mp4: [
+        'https://www.rmp-streaming.com/media/bbb-360p.mp4'
+      ],
+      webm: [
+        'https://www.rmp-streaming.com/media/bbb-360p.webm'
+      ]
+    };
+    var settings = {
+      // Enter your license key
+      licenseKey: 'your-license-key',
+      delayToFade: 3000,
+      width: 640,
+      height: 360,
+      pathToRmpFiles: '../',
+      bitrates: bitrates,
+      poster: 'https://www.radiantmediaplayer.com/images/poster-rmp-showcase.jpg',
+      ads: true,
+      adLocale: 'en',
+      adCustomMessage: 'Ads',
+      adTagUrl: '//pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=',
+      adTagWaterfall: [
+        '//pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator=',
+        '//pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator='
+      ]
+    };
+    // Reference to the player container (id)
+    var elementID = 'rmpPlayer';
+    // New Radiant Media Player object
+    var rmp = new RadiantMP(elementID);
+    // Initialize player ... and done!
+    rmp.init(settings);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+This files includes licensing information for:
+- Radiant Media Player
+Licensing information for Radiant Media Player dependencies can be found online at the following locations:
+- hls.js | https://github.com/dailymotion/hls.js | Apache 2.0 License
+- Shaka Player | https://github.com/google/shaka-player | Apache 2.0 License
+- three.js | https://github.com/mrdoob/three.js | MIT License
+- vtt.js | https://github.com/mozilla/vtt.js | Apache 2.0 License
+- flashls | https://github.com/mangui/flashls | Mozilla Public License, version 2.0
+
+As a distributor we took care of complying with the terms of these licenses and you do not need to take extra steps as long as you do not distribute the above mentioned dependencies.
+Radiant Media Player terms of services forbids the distribution, redistribution or resell of Radiant Media Player software.
+
+--------------------------------------------------------------------
+
+Radiant Media Player
+Terms Of Service
+
+The last version of these terms of service can be viewed online at: 
+https://www.radiantmediaplayer.com/terms-of-service.html
+
+Updated on October 10, 2016.
+
+Last updated on October 10, 2016.
+
+Preamble:
+We thank you for your interest in Radiant Media Player.
+
+By using, ordering, downloading or installing the Software from radiantmediaplayer.com, the Licensee is agreeing to be bound by this License and the licenses granted hereunder are subject to compliance with any and all terms of this License. The Licensee further agrees that any employees or any persons authorized by the Licensee to use the Software will also be bound by the terms of this License.
+
+If you do not agree with the terms of this License, you must not use the Software for any purpose whatsoever.
+
+1. Definitions and interpretation
+In this License:
+
+"Documentation" means the documentation linked to the Software supplied by the Licensor to the Licensee. This documentation is available online at https://www.radiantmediaplayer.com/documentation.html;
+
+"License" means this document (including the preamble), and any amendments to it from time to time;
+
+"Force Majeure Event" means an event, or a series of related events, that is outside the reasonable control of the party affected (including failures of or problems with the Internet or a part of the Internet, power failures, industrial disputes affecting any third party, changes to the law, disasters, explosions, fires, floods, riots, terrorist attacks and wars);
+
+"Intellectual Property Rights" means all intellectual property rights wherever in the world, whether registered or unregistered, including any application or right of application for such rights (and the “intellectual property rights” referred to above include copyright and related rights, database rights, confidential information, trade secrets, know-how, business names, trade names, trade marks, service marks, passing off rights, unfair competition rights, patents, petty patents, utility models and rights in designs);
+
+"Licensee" means the licensee of the Software under this License;
+
+"Licensor" means Radiant Media Player | Arnaud Leyder EIRL owner and developer of the Software, based at Hemiris Batiment A, 115 rue Claude Nicolas Ledoux, 13290 Aix en Provence Cedex 03, France. Registered business identification (SIRET): 798 467 171 00012;
+
+"Domain" means Internet domain name. The Software is subject to being authorized on a given number of Internet domains based on the number of purchased license keys. The Licensee may purchase at any time additional license keys for the Software. Security mechanisms are in place to check authorization of the Software for a given Internet domain;
+
+"Software" means Radiant Media Player software, a media player which allows media content to be consumed with an Internet connected device. The Software consist of the Player that can be hosted on the Licensee's infrastructure or can be made accessible through the Licensor's Cloud-based services, the Back-end, the Software Domain Authorization Mechanism and any additional software resources to the Software that the Licensee may wish to use;
+
+"Player" means the JavaScript, cascading style sheets and related files and the Software Domain Authorization Mechanism composing the player;
+
+"Back-end" means a graphical interface reachable at https://www.radiantmediaplayer.com/back-end through a modern Internet browser where the Software can be managed. Using the Software means the Licensee has access to the Back-end and is using it to manage the Software. The back-end is only accessible through the Licensor's Cloud-based services;
+
+"Cloud-based services" means the Software is made available to the Licensee by the Licensor through a cloud-based architecture. These Cloud-based services are provided through content delivery network and Internet hosting service providers;
+
+"Player Start" means a media content (video, audio, advertisement ...) has begun playback within the Player.
+
+"Content" means any video, audio, data provided by the Licensee and that is consumed through or displayed with the Software. The Licensor does not provide services to host or prepare Content.
+
+"Software Domain Authorization Mechanism" means a license key is required for each Domain where the Software is used. License keys are generated in the Back-end. The authorization mechanism is included within the player and does communicate from time to time with an external server to verify license key validity;
+
+"Website" means the Licensor's website https://www.radiantmediaplayer.com
+
+"OEM" means original equipment manufacturer. This refers to use cases where the Player may be used in a context where it is included in a product or service run by the Licensee.
+
+2. Purpose of License
+This License sets out the terms and conditions upon which the Licensor licenses, sales and supplies the Software. This License shall also govern the use of the Software.
+
+3. Entire agreement
+These terms and conditions, together with the Radiant Media Player privacy and cookies policy reachable at https://www.radiantmediaplayer.com/privacy-policy.html shall constitute the entire agreement between the Licensee and the Licensor in relation to the licensing, sale and supply of the Software and the use of this Software and shall supersede all previous agreements between the Licensee and the Licensor in relation to the licensing, sale and supply of the Software.
+
+4. Effective date of License
+As soon as the Licensee starts using, downloading or installing the Software this License comes into force. A link to this License is provided on the page where the Software can be ordered.
+
+If applicable all required charges and fees must also be paid in full by the Licensee before this License can come into force.
+
+This License will continue in force for the legal duration of Software copyright owned by the Licensor according to French law, unless and until terminated in accordance with clause 22.
+
+5. Description of Product
+The Software is a media player which allows media content to be consumed with an Internet connected device. The Software was developed mainly using HTML5, CSS3, JavaScript. A list of tested environments is available here.
+
+6. License
+6.1 Software license
+
+The Licensee may only use the Software and Documentation for the Licensee's business, internal business or own private commercial or non-commercial purposes and in accordance with the provisions of this clause.
+
+Subject to the payment of the relevant fees by the Licensee and the Licensee's compliance with clause 6.2 and the other provisions of this License, the Licensor grants to the Licensee a non-exclusive, non-transferable, non-assignable license, without the right to sub-license to:
+
+Free edition users:
+
+Use the Software and Documentation on one (1) Domain by a company or individual user anywhere in the world up to 100 000 Player Starts per month. A license key is not required to use the Software in its free edition. The Software in its free edition is only available through the Licensor Cloud-based services (no self-hosting).
+
+RMP edition customers:
+
+Download, install or use the Software and Documentation on one or more Domains according to the number of license keys purchased by the Licensee anywhere in the world. The Software may be used for as many sub-domains as required by the Licensee for a given registered Domain. Additional Domains can be purchased by the Licensee at any time for the Software at https://www.radiantmediaplayer.com/pricing.html. A license key for each authorized Domain needs to be generated before use of the Player. License key once generated for a Domain cannot be modified.
+
+6.2 The Licensee must not:
+
+6.2.a copy or reproduce the Software or Documentation or any part of the Software or Documentation other than in accordance with the license granted in this Clause. Some part of the Documentation are released under Creative Commons Attribution 3.0 License in which case it will be clearly indicated on the documentation page. In this case the Documentation is ruled by the Creative Commons Attribution 3.0 License;
+
+6.2.b sell, resell, rent, lease, loan, supply, distribute, redistribute, publish or re-publish the Software or Documentation or any part of the Software or Documentation;
+
+6.2.c modify, alter, adapt, translate or edit, or create derivative works of, the Software or Documentation or any part of the Software or Documentation;
+
+6.2.d reverse engineer, decompile, disassemble the Software or Documentation or any part of the Software or Documentation;
+
+6.2.e circumvent or remove or attempt to circumvent or remove the technological measures applied to the Software and Documentation for the purposes of preventing unauthorized use;
+
+6.3 JavaScript source code for the Software is not open source and is provided minified to all users and customers. Extensions, MPEG-DASH & HLS decoder, CSS and Less CSS not-minified source files are available for all RMP edition customers.
+
+6.4 Daily traffic consideration: if the Licensee expects a very high traffic through the Player (an average of more than 3 million Player Starts per day) the Licensee must contact the Licensor before subscribing to the Software to insure the Licensor can provide support for the Licensee use-case. The Licensor reserves the right to refuse or terminate service for such use-cases in accordance with clause 22 and the other provisions of this License.
+
+6.5 The Licensor does not provide any guarantee that the Player will work as expected in environments where the file:// protocol is required. It is up to the Licensee to make sure the Player can be used in such environments. The Licensor does not provide assistance for using the Player in such environments.
+
+6.6 The Licensor provides an iframe embedding option for the Player for casual embedding of the player on 3rd-party sites or social media channels. If the Licensee intends to use the Player on a permanent basis for a given Domain the Licensee must have an active license key for this Domain. If the Licensee wishes to include the Player into a product/service (like an online video platform or video ad platform), the Licensee needs to contact the Licensor for OEM licensing options.
+
+6.7 OEM licensing: the Licensor may provide specific licensing options if the Licensee wishes to include the Player in a product or service. The Licensee must contact the Licensor for further information on OEM licensing options.
+
+7. Ownership of Intellectual Property
+All Intellectual Property Rights in the Software, Documentation and Website are and will remain, as between the parties, the property of the Licensor.
+
+The Licensee is and remains owner of the data used through the Software.
+
+8. Other Users
+8.1 The Licensee may permit any employee of the Licensee to exercise the rights granted by the Licensor to the Licensee under Clause 6, subject always to the restrictions set out in Clause 6.
+
+8.2 The Licensee must ensure that any person using the Software or Documentation in accordance with Clause 8.1 is made aware of, and agrees to, the terms of this License.
+
+9. Order process for Radiant Media Player RMP edition
+9.1 The advertising of the Software on the Website constitutes an "invitation to treat" rather than a contractual offer.
+
+9.2 To enter into a contract through the Website to order to the Software, the following steps must be taken:
+
+The Licensee must click on the "Order Now" button from the pricing page to proceed to checkout;
+
+The Licensee will then be transferred to the Licensor payment service provider's website, and the Licensor's payment service provider will handle the payment;
+
+If the Licensee is a new customer, an account will automatically be created based on information provided during the payment process;
+
+If the Licensee is an existing customer, the order will be added to the Licensee existing account provided the same email address is used for the existing account and the new order;
+
+The Licensee must consent to the terms of this License before payment;
+
+If the payment is successful the Licensor will send the Licensee an order confirmation (at which point the order will become a binding contract) or else the Licensor will confirm by email to the Licensee that the order could not be processed any further at this point in time.
+
+9.3 The Licensee will have the opportunity to identify and correct input errors prior to making the order by selecting the related input fields and correct information within these fields.
+
+10. Prices
+10.1 Prices are quoted on the Website at https://www.radiantmediaplayer.com/pricing.html. The Software is available as a month-to-month subscription service. When subscribing the Licensee is guaranteed a fixed price for a period of 2 years. After that period of 2 years and in the event of a price change that the the Licensee wishes to apply, the Licensee will be notified in writing by email of the price change and the Licensee will have the option to either cancel the subscription service or accept the price change. The new price will then be valid for another 2 years period.
+
+10.2 The Licensor will from time to time change the prices quoted on the Website, but this will not affect contracts that have previously come into force according to section 10.1.
+
+10.3 All amounts stated in these terms and conditions or on the Website are stated exclusive of VAT.
+
+11. Refund Policy
+All fees are non-refundable except as otherwise provided in these License. The Licensee shall be responsible to pay all taxes due in connection with the fees and the Licensee’s use of the Software.
+
+12. Software Delivery
+As soon as this License comes into force the Player will be made available to the Licensee in the Back-end at https://www.radiantmediaplayer.com/back-end/. This is generally a matter of minutes but can take up to 16 business hours.
+
+13. Back-end accounts
+13.1 To be eligible for an account on the Website, the Licensee must be at least 18 years of age.
+
+13.2 The Licensee must notify the Licensor in writing immediately if the Licensee becomes aware of any unauthorized use of the account.
+
+14. User IDs and passwords
+14.1 The Licensee will set a User ID and a password for his or her account at https://www.radiantmediaplayer.com/back-end/.
+
+14.2 The Licensee's user ID and password are used to restrict access to the services provided by the Licensor and area of the Website based on registration and purchases if applicable. They are used to ensure the integrity and availability of the Licensor's services and the integrity, confidentiality and availability of personal data the Licensee may have provided.
+
+14.3 The Licensee must keep the password confidential.
+
+14.4 The Licensee must notify the Licensor in writing immediately if the Licensee become aware of any disclosure of the password.
+
+14.5 In case of loss of password the Licensee has to use the online reset password form provided by the Licensor available at https://www.radiantmediaplayer.com/reset-password.html
+
+14.6 In case of loss of user ID, the Licensee has to contact the Licensor by email at support@radiantmediaplayer.com. The Licensor will require proof of the Licensee's identify and purchase if applicable before providing the Licensee with user ID information.
+
+14.7 The Licensee is responsible for any activity on the Website & Back-end arising out of any failure to keep the password confidential, and may be held liable for any losses arising out of such a failure.
+
+15. Cloud-based services
+The Licensor provides to the Licensee Cloud based services available on the Licensor servers through the Internet network. The Cloud-based services include access to the Back-end through a modern Internet browser. The use of the Software through the Cloud-based services provided by the Licensor is subject to the same licensing terms as expressed in this License. The Licensor provides hosting of data, maintenance and security for these Cloud-based services in a manner consistent with general industry standards reasonably applicable.
+
+16. Quality of Cloud-based services
+16.1 Disclaimer
+
+The Licensee is fully aware of the technical hazards that may cause interruptions of services due to the inherent nature of the Internet and computer networks. Cloud-based services are provided to the Licensee by the Licensor with no warranty of any kind as expressed in Clause 19 of this License. The Licensor is not to be held responsible for any unavailability, slowing-down or failure of the Cloud-based services as expressed in Clause 20 of this License. It is the Licensee's responsibility to establish a back-up strategy, if desired, in case the Cloud-based services provided by the Licensor become unavailable.
+
+16.2 Access to the Cloud-based services
+
+The Licensee can access the Licensor's Cloud-based services at any time outside of maintenance periods. This means a 24 hours a day, 7 days a week access including Sundays and bank holidays. The Licensor will inform the Licensee through the Website or the Back-end of all maintenance periods exceeding 2 business hours with a minimum of 8 business hours notice. Each maintenance period shall not exceed 16 business hours.
+
+17. Maintenance and Support
+17.1 The Licensor shall provide reasonable technical support and maintenance for the Software in its sole discretion.
+
+Technical support and maintenance shall only be provided to Licensee who purchased the Software for the current major version of the Software (3.x.x as of June 2016). Technical support covers troubleshooting for the Software setup/features, bugfixes and other minor improvements. Support and updates for previous major versions of the Software is not covered by this License. Support for complex setups, integration in CMS or other advanced features that are not part of the Software current features list is not covered by this technical support agreement. Technical support and maintenance shall only be provided to Licensee if it relates to existing functionalities of the Software and if it is technically possible to provide such maintenance and support.
+
+Documentation for the Software is located at https://www.radiantmediaplayer.com/documentation.html. Technical support can be reached through the Licensor's online contact form at https://www.radiantmediaplayer.com/contact.html
+
+Non-technical, account and sales support should be requested at https://www.radiantmediaplayer.com/contact.html.
+
+The Licensor shall have no obligation to provide additional technical support, maintenance, updates or enhancements to the Software. All installation and maintenance of the Player by the Licensee on the Licensee's infrastructure shall be at the sole expense of the Licensee.
+
+17.2 The Licensee acknowledges that:
+
+17.2.a the Licensor’s sole obligation under Clause 17.1 is to make reasonable endeavours to resolve issues raised by the Licensee;
+
+17.2.b the Licensor does not provide any kind of guarantee to the Licensee that issues raised will be solved;
+
+17.2.c the Licensor will not provide any on-site support under this License;
+
+18. Limited warranties
+18.1 The Licensee warrants to the Licensor that it has the legal right and authority to enter into and perform its obligations under this License.
+
+18.2 The Licensor warrants to the Licensee that it has the legal right and authority to enter into and perform its obligations under this License.
+
+18.3 The Licensee acknowledges that:
+
+18.3.a the Software may not be error-free and that non-material errors in the Software will not constitute a breach of this License.
+
+18.3.b the Software has not been developed to meet the specific requirements of the Licensee, and accordingly the Licensee will be responsible for ensuring that the Software is suitable to meet the Licensee's requirements.
+
+19. Disclaimer
+Except as otherwise provided and to the maximum extent allowed by law, the Software is provided by the Licensor on an “as is” basis to the Licensee without warranties or conditions of any kind, either express or implied including, without limitation, any warranties or conditions of title, non-infringement of third party rights, merchantability or fitness for a particular purpose. Except as otherwise provided, use of the Software is at the Licensee's own risk and Licensee is solely responsible for determining the appropriateness of exercising the rights granted under this License and assumes all risks associated therewith, including but not limited to the risks and costs of software errors, compliance with applicable laws, damage to or loss of data programs or equipment, suitability for hosting and unavailability or interruption.
+
+20. Limitations and exclusions of liability
+20.1 Nothing in this License will exclude any liability of a party that may not be excluded under applicable law
+
+20.2 The Licensor will not be liable to the Licensee for any losses arising out of a Force Majeure Event.
+
+20.3 The Licensor will not be liable to the Licensee in respect of any business losses, such as loss of or damage to profits, income, revenue, use, production, anticipated savings, business, contracts, commercial opportunities or goodwill.
+
+20.4 The Licensor will not be liable to the Licensee in respect of any loss or corruption of any data, database or software.
+
+20.5 The Licensor will not be liable to the Licensee in respect of any special, indirect or consequential loss or damage.
+
+20.6 The Licensor's aggregate liability to the Licensee will not exceed the total amount of all fees paid to the Licensor.
+
+21. Content
+21.1 No Responsibility for Content. The Licensee acknowledges and understands that Content consumed through or displayed with the Software is entirely the Licensee responsibility. The Licensee acknowledges, agrees, and agrees to assert and acknowledges in legal proceedings that the Licensor exercises no control whatsoever over the Content and that the Licensor will not be liable for Content.
+
+21.2 Prohibited Content. Furthermore the Licensee agrees to NOT use the Software with any Content that is illegal or which improperly references illegal activities. This includes Content that is defamatory, obscene, abusive, invasive of privacy, or otherwise objectionable including Content that constitutes child pornography, relates to bestiality or depicts non-consensual sex acts. Prohibited Content also includes Content that promotes download of software viruses or other malware, misleading material or illegal drugs. 
+If the Licensor is made aware or finds out that prohibited Content is used by the Licensee with the Software this License will immediately end according to Clause 22. The Licensor will not be liable for the use and consequences of use of prohibited Content with the Software by the Licensee.
+
+22. Termination
+The Licensee can at any time cancel the subscription. The request for cancellation must be made by the Licensee within the Licensor Back-end (my account section). The Licensee subscription will remain active until the end of the current subscription period. After this date the Licensee subscription will end, and the Licensee will not be billed again.
+
+The Licensor may terminate this License immediately by giving the Licensee written notice of termination if the Licensee or any employee of the Licensee or person authorized by the Licensee to use the Software and Documentation breaches any provision of this License.
+
+The Licensee may request to terminate this License through the Licensor's online form reachable at https://www.radiantmediaplayer.com/contact.html with a brief explanation for the termination request.
+
+As a result of termination the Licensee will lose, and the Licensor may delete, the Licensee's account on the Back-end and the related information the Licensee has passed on to the Licensor.
+
+In the event of termination of this License no credit (such as for unused services) will be credited to the Licensee or converted into cash or any other form of reimbursement.
+
+23. Confidentiality
+The Licensee and the Licensor mutually agree not to disclose to any third-parties and to keep confidential any communications they may have between one another and to only use these communications to comply with the terms and conditions of this License or to exercise one of the parties' rights under this License.
+
+24. Variation
+24.1 The Licensor may revise these terms and conditions from time to time by publishing a new version on its website.
+
+24.2 A revision of these terms and conditions will apply to contracts entered into at any time following the time of the revision, but will not affect contracts made before the time of the revision.
+
+25. No waivers
+25.1 No breach of any provision of the License under these terms and conditions will be waived except with the express written consent of the party not in breach.
+
+25.2 No waiver of any breach of any provision of the License under these terms and conditions shall be construed as a further or continuing waiver of any breach of that provision or any other provision of that License.
+
+26. Severability
+26.1 If a provision of the License under these terms and conditions is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect.
+
+26.2 If any unlawful and/or unenforceable provision of this License under these terms and conditions would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.
+
+27. Third party rights
+27.1 The License under these terms and conditions is for the Licensee and the Licensor benefits, and is not intended to benefit or be enforceable by any third party.
+
+27.2 The exercise of the parties' rights under the License under these terms and conditions is not subject to the consent of any third party.
+
+28. Statutory and regulatory disclosures
+28.1 The Licensor will not file a copy of these terms and conditions specifically in relation to each user or customer and, if the Licensor updates these terms and conditions, the version to which the Licensee originally agreed will no longer be available on the Website. The Licensor recommends that to the Licensee to save a copy of this License for future reference.
+
+28.2 This License is available in the English language.
+
+29. Law and jurisdiction
+29.1 The License shall be governed by and construed in accordance with French law.
+
+29.2 Any disputes arising under this License shall be heard in the courts located in Aix en Provence, France only and the Licensee consents to the exclusive jurisdiction thereof.
+
+30. Licensor details
+30.1 The https://www.radiantmediaplayer.com website is owned and operated by the Licensor. The Licensor is the owner of Radiant Media Player and developer of the Software.
+
+30.2 The Licensee can contact the Licensor:
+
+By writing to the Licensor's business address: 
+Radiant Media Player, 
+Hemiris Batiment A 
+115 rue Claude Nicolas Ledoux 
+13290 Aix en Provence Cedex 03 
+France
+
+By using the Website at https://www.radiantmediaplayer.com/contact.html;
+
+By email support [at] radiantmediaplayer.com;
